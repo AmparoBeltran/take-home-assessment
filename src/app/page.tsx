@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
   Accordion,
   AccordionContent,
@@ -28,7 +29,7 @@ export default function Home() {
           </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-3">
             <p>
-              Even though I don’t have proper technical support experience,
+              Even though I don't have proper technical support experience,
               based on my own troubleshooting experience as a Frontend
               Developer, I believe the below to be an accurate representation of
               what I would enjoy the most and the least on the job.
@@ -48,13 +49,12 @@ export default function Home() {
               </li>
               <li>
                 <p className="font-semibold">
-                  {/* eslint-disable-next-line react/no-unescaped-entities */}
                   Dig through logs to troubleshoot a customer's broken project
                 </p>
                 <p>
                   Logs tend to be reliable and can be considered an immutable
                   source of truth and a valuable tool when it comes to
-                  investigating issues. I don’t need to rely on the customer, if
+                  investigating issues. I don't need to rely on the customer, if
                   something was logged it happened and it did in a certain way.
                 </p>
               </li>
@@ -64,7 +64,7 @@ export default function Home() {
                   and public Vercel/Next.js repos on GitHub
                 </p>
                 <p>
-                  Today I’m a developer so this is part of my job. I
+                  Today I'm a developer so this is part of my job. I
                   particularly enjoy digging into those kind of issues in my own
                   codebases.
                 </p>
@@ -90,11 +90,11 @@ export default function Home() {
                   <li>I have successfully managed teams in the past.</li>
                   <li>
                     While I was working for Hedra Enginyeria Agricola, I was the
-                    bridge between the company’s owner and the team. I was
+                    bridge between the company's owner and the team. I was
                     responsible for scheduling their jobs, gathering the
                     feedback they could bring from the clients and passing it on
-                    to the company’s owner. I was the contact between the
-                    company’s owner and the clients and providers as well.
+                    to the company's owner. I was the contact between the
+                    company's owner and the clients and providers as well.
                   </li>
                   <li>
                     I regularly worked out of hours to help ensure customers
@@ -117,7 +117,7 @@ export default function Home() {
                   or use case
                 </p>
                 <p>
-                  I’m too shy for that. I get very nervous because I need things
+                  I'm too shy for that. I get very nervous because I need things
                   done perfectly. It would take me forever to get the right
                   video.
                 </p>
@@ -128,7 +128,7 @@ export default function Home() {
                   3rd party sites
                 </p>
                 <p>
-                  I don’t like social media. That would be very stressful for
+                  I don't like social media. That would be very stressful for
                   me.
                 </p>
               </li>
@@ -138,7 +138,7 @@ export default function Home() {
                 </p>
                 <p>
                   While I do believe in the importance of these sessions, and
-                  know that I would highly benefit from them, I don’t believe I
+                  know that I would highly benefit from them, I don't believe I
                   would be the most adequate person to run them.
                 </p>
               </li>
@@ -149,7 +149,7 @@ export default function Home() {
                 </p>
                 <p>
                   That is something I have done. But sales is not my strongest
-                  suit and I don’t feel comfortable acting as a salesperson.
+                  suit and I don't feel comfortable acting as a salesperson.
                 </p>
               </li>
             </ul>
@@ -185,8 +185,8 @@ export default function Home() {
               Once upon a time, I had a problem with one of my printers (it was
               a big one, the kind you use in a digital printing shop). I had to
               print a project for a client and the deadline was Monday. The
-              customer service didn’t have support on the weekends, so I had to
-              fix it myself. Thankfully, I’m a curious person and every time the
+              customer service didn't have support on the weekends, so I had to
+              fix it myself. Thankfully, I'm a curious person and every time the
               technicians came to fix the machine, I paid attention to the error
               displayed and each step they perfomed to take the machine apart
               for each different error. Thankfully as well, I had started to
@@ -281,8 +281,8 @@ export default function Home() {
         <AccordionItem value="item-6">
           <AccordionTrigger className="text-left">
             The customer from question 5 replies to your response with the
-            below: “I’m so frustrated. I’ve been trying to make this work for
-            hours and I just can’t figure it out. It must be a platform issue so
+            below: “I'm so frustrated. I've been trying to make this work for
+            hours and I just can't figure it out. It must be a platform issue so
             just fix it for me instead of asking me questions.” Please write a
             follow-up reply to the customer.
           </AccordionTrigger>
@@ -352,7 +352,7 @@ export default function Home() {
             <p>Amparo Beltran</p>
             <p className="font-medium p-4 border-t">
               To be able to reply to this customer, I searched for “redirect” on
-              Vercel’s documentation, and found the link I gave to the customer.
+              Vercel's documentation, and found the link I gave to the customer.
               After reading it, I shared what I believe answers their query, and
               also gave them the link so they can refer to it in the future,
               should they have the same question again.
@@ -431,7 +431,7 @@ export default function Home() {
           </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-3">
             <p>
-              After looking at Vercel’s documentation and considering the amount
+              After looking at Vercel's documentation and considering the amount
               of information about it. I believe that cache might be one of the
               most common problems.
             </p>
@@ -453,7 +453,7 @@ export default function Home() {
           </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-3">
             <p>
-              I honestly don’t know. It’s my first time applying for a support
+              I honestly don't know. It's my first time applying for a support
               position. I would say that this assessment is less time-consuming
               than others I did for Frontend development positions. I appreciate
               the time limit and consideration for the candidate's time.
